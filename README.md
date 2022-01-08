@@ -13,21 +13,20 @@ A dataset called [HR Analytics](https://www.kaggle.com/arashnic/hr-analytics-job
 
 Features    |Data Type         |Description                    |
 |:-----------|:----------------|:------------------------------|
-|enrollee_id    |Integer          |Unique ID for candidate|
+|enrollee_id |Integer          |Unique ID for candidate|
 |city        |String           |City code|
-|city_ development _index |Integer        |Developement index of the city (scaled)|
-|gender   |Integer           |Gender of candidate|
-
-|relevent_experience|                |Relevant experience of candidate|
-|enrolled_university |                |Type of University course enrolled if any|
-|education_level|                      |Education level of candidate|
-|major_discipline|                     |Education major discipline of candidate|
-|experience|                           |Candidate total experience in years|
-|company_size|                         |No of employees in current employer's company|
-|company_type|                         |Type of current employer|
-|lastnewjob|                           |Difference in years between previous job and current job|
-|training_hours|                       |training hours completed|
-|target|                               |0 – Not looking for job change, 1 – Looking for a job change|
+|city_development _ index| float |Developement index of the city (scaled)|
+|gender   |String                |Gender of candidate|
+|relevent_experience| String     |Relevant experience of candidate|
+|enrolled_university | String    |Type of University course enrolled if any|
+|education_level| String         |Education level of candidate|
+|major_discipline| String        |Education major discipline of candidate|
+|experience|String               |Candidate total experience in years|
+|company_size| String            |No of employees in current employer's company|
+|company_type|String             |Type of current employer|
+|lastnewjob| String              |Difference in years between previous job and current job|
+|training_hours|Integer          |training hours completed|
+|target|float                    |0 – Not looking for job change, 1 – Looking for a job change|
 
 
 #### Note:
@@ -39,4 +38,4 @@ The dataset is imbalanced. Most features are categorical (Nominal, Ordinal, Bina
 #### We are using python language in the implementations and Jupyter Notebook that support the machine learning and data science projects.
 
 
-This project was created by: Annal Ail Albeeshi.
+#### This project was created by: Annal Ail Albeeshi.
