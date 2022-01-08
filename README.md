@@ -7,14 +7,16 @@ A company which is active in Big Data and Data Science wants to hire data scient
 
 This dataset designed to understand the factors that lead a person to leave current job for HR researches too. By model(s) that uses the current credentials,demographics,experience data you will predict the probability of a candidate to look for a new job or will work for the company, as well as interpreting affected factors on employee decision.
 
+![Screenshot](hr.jpg)
+
 
 ### Datasets description:
 A dataset called [HR Analytics](https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists?select=aug_train.csv) was used. The data set consists of 14 features, and 19,158 rows. Only aug_train.csv was used in this project.
 
 Features    |Data Type         |Description                    |
 |:-----------|:----------------|:------------------------------|
-|enrollee_id |Integer          |Unique ID for candidate|
-|city        |String           |City code|
+|enrollee_id |Integer            |Unique ID for candidate|
+|city        |String             |City code|
 |city_development _ index| float |Developement index of the city (scaled)|
 |gender   |String                |Gender of candidate|
 |relevent_experience| String     |Relevant experience of candidate|
@@ -38,4 +40,5 @@ The dataset is imbalanced. Most features are categorical (Nominal, Ordinal, Bina
 #### We are using python language in the implementations and Jupyter Notebook that support the machine learning and data science projects.
 
 
-#### This project was created by: Annal Ail Albeeshi.
+#### This project was created by:
+#### Annal Ail Albeeshi.
