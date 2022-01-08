@@ -33,6 +33,7 @@ Features    |Data Type         |Description                    |
 The dataset is imbalanced. Most features are categorical (Nominal, Ordinal, Binary), some with high cardinality. Missing imputation can be a part of your pipeline as well.
 
 ### Tools:
+pandas, numpy, matplotlib.pyplot, seaborn, sklearn
 
 ### Technical Approach:
 #### We are using python language in the implementations and Jupyter Notebook that support the machine learning and data science projects.
